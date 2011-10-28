@@ -32,6 +32,7 @@ projects[views][subdir] = "contrib"
 projects[ctools][subdir] = "contrib"
 projects[semanticviews][subdir] = "contrib"
 projects[views_slideshow][subdir] = "contrib"
+projects[views_slideshow][version] = 2.3
 projects[views_attach][subdir] = "contrib"
 projects[views_nivo_slider][subdir] = "contrib"
 projects[draggableviews][subdir] = "contrib"
