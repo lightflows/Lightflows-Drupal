@@ -172,7 +172,7 @@ projects[menu_block][subdir] = "contrib"
 projects[skinr][subdir] = "contrib"
 projects[tao][type] = "theme"
 projects[rubik][type] = "theme"
-libraries[fusion][type] = "theme"
+projects[fusion][type] = "theme"
 projects[acquia_prosper][type] = "theme"
 
 ;SEO
