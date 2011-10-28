@@ -1,3 +1,5 @@
+api = 2
+
 ; DRUPAL VERSION
 core = 6.x
 projects[] = "drupal"
@@ -16,7 +18,6 @@ projects[nodeformcols][subdir] = "contrib"
 projects[cck][subdir] = "contrib"
 projects[emfield][subdir] = "contrib"
 projects[filefield][subdir] = "contrib"
-projects[field_group][subdir] = "contrib"
 projects[imagefield][subdir] = "contrib"
 projects[media_youtube][subdir] = "contrib"
 projects[media_vimeo][subdir] = "contrib"
@@ -166,16 +167,11 @@ projects[better_perms][subdir] = "contrib"
 projects[ctm][subdir] = "contrib"
 projects[menu_block][subdir] = "contrib"
 
-
-
 ;THEMES AND THEME RELATED MODULES
 projects[skinr][subdir] = "contrib"
 projects[tao][type] = "theme"
 projects[rubik][type] = "theme"
-libraries[fusion][download][type] = "get"
-libraries[fusion][download][url] = "http://ftp.drupal.org/files/projects/fusion-6.x-1.12.tar.gz"
-libraries[fusion][directory_name] = "fusion"
-libraries[fusion][destination] = "themes"
+libraries[fusion][type] = "theme"
 projects[acquia_prosper][type] = "theme"
 
 ;SEO
