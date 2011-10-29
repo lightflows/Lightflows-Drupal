@@ -153,6 +153,7 @@ libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
+projects[jquery_update][subdir] = "contrib"
 
 ;USERS AND PERMISSIONS
 projects[masquerade][subdir] = "contrib"
